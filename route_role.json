@@ -1,0 +1,27 @@
+[
+	{
+		"route": "api/product/*/preview",
+		"method": "GET",
+		"roles": ["view"]
+	}, 
+	{
+		"route": "api/product/*/details",
+		"method": "GET",
+		"roles": ["primer"]
+	},
+	{
+		"route": "api/product",
+		"method": "POST",
+		"roles": ["create"]
+	}, 
+	{
+		"route": "api/product/",
+		"method": "GET",
+		"roles": ["view"]
+	}, 
+	{
+		"route": "api/organiser/*/preview",
+		"method": "GET",
+		"roles": ["view"]
+	}
+]
